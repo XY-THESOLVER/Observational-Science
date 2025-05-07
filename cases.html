@@ -79,3 +79,51 @@
     <script src="cases.js"></script>
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cases - Observational Science</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Observational Science - Cases</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="forum.html">Forum</a>
+            <a href="cases.html">Cases</a>
+        </nav>
+    </header>
+
+    <section id="submit-case">
+        <h2>Submit or Edit a Case</h2>
+        <form id="caseForm">
+            <input type="hidden" id="caseId" value="">
+            <input type="text" id="caseTitle" placeholder="Case Title" required>
+            <textarea id="caseDescription" placeholder="Case Description" required></textarea>
+            <select id="caseStatus">
+                <option value="Open">Open</option>
+                <option value="In Progress">In Progress</option>
+                <option value="Closed">Closed</option>
+            </select>
+            <button type="submit">Submit Case</button>
+        </form>
+    </section>
+
+    <section id="cases">
+        <h2>Active Cases</h2>
+        <div id="cases-list">
+            <!-- Cases will be displayed here -->
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Observational Science | By Xy</p>
+    </footer>
+
+    <script src="cases.js"></script>
+</body>
+</html>
