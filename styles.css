@@ -104,3 +104,52 @@ footer a:hover {
 .case:hover {
     background-color: #444;
 }
+#submit-case {
+    background-color: #2a2a2a;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-left: 5px solid #f0c674;
+}
+
+#caseForm {
+    display: flex;
+    flex-direction: column;
+}
+
+#caseForm input,
+#caseForm textarea,
+#caseForm select,
+#caseForm button {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #333;
+    color: #e5e5e5;
+    border: none;
+}
+
+#caseForm button {
+    background-color: #f0c674;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#caseForm button:hover {
+    background-color: #ffb84d;
+}
+
+#cases-list .case {
+    background-color: #444;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-left: 5px solid #f0c674;
+}
+
+#cases-list .case button {
+    background-color: #f0c674;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+#cases-list .case button:hover {
+    background-color: #ffb84d;
+}
